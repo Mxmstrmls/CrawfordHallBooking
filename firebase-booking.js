@@ -1,3 +1,7 @@
+// Load Firebase SDK
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
 document.addEventListener("DOMContentLoaded", function () {
    const firebaseConfig = {
       apiKey: "AIzaSyCgJmSaTJ34PY-vdS514CFPf6GDU5ME_sk",
